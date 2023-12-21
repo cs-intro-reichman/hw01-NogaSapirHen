@@ -4,5 +4,11 @@
 public class AddTwo {
 	public static void main(String[] args) {
 		// Put your code here	
+		
+        // Declares integers
+	int a = Integer.parseInt (args[0]);
+	int b = Integer.parseInt (args[1]);
+		// prints the equlation and it's solution
+		System.out.println( a + " " + "+" + " " + b + " =" + " " + (a+b) );
 	}
 }
