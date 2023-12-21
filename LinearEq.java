@@ -13,7 +13,7 @@ public class LinearEq {
 	Double c = Double.parseDouble (args[2]);
 		// defines x by calcuating the equation
 		Double x = ( c - b ) / a;
-		System.out.println ( a +" x * + "+ b +" = "+ c );
+		System.out.println ( a +" * x + "+ b +" = "+ c );
 		System.out.println ( "x = "+ x );
 		}
 }
